@@ -11,6 +11,12 @@ import {MatToolbarModule} from '@angular/material/toolbar'
 import {MatButtonModule} from '@angular/material/button'
 import {MatIconModule} from '@angular/material/icon'
 import {MatMenuModule} from '@angular/material/menu';
+import { ProfileComponent } from './profile/profile.component';
+import { EducationComponent } from './education/education.component';
+import { SkillsInterestsComponent } from './skills-interests/skills-interests.component';
+import { AcademicProjectsComponent } from './academic-projects/academic-projects.component';
+import { CertificatesComponent } from './certificates/certificates.component';
+import { ContactInfoComponent } from './contact-info/contact-info.component';
 
 
 
@@ -18,7 +24,13 @@ import {MatMenuModule} from '@angular/material/menu';
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    ProfileComponent,
+    EducationComponent,
+    SkillsInterestsComponent,
+    AcademicProjectsComponent,
+    CertificatesComponent,
+    ContactInfoComponent
   ],
   imports: [
     BrowserModule,
