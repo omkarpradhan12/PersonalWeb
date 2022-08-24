@@ -7,9 +7,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 
-import {MatToolbarModule} from '@angular/material/toolbar'
-import {MatButtonModule} from '@angular/material/button'
-import {MatIconModule} from '@angular/material/icon'
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+import {MatIconModule} from '@angular/material/icon';
+import {MatTabsModule} from '@angular/material/tabs';
 import {MatMenuModule} from '@angular/material/menu';
 import { ProfileComponent } from './profile/profile.component';
 import { EducationComponent } from './education/education.component';
@@ -39,7 +40,8 @@ import { ContactInfoComponent } from './contact-info/contact-info.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatMenuModule
+    MatMenuModule,
+    MatTabsModule
 
   ],
   providers: [],

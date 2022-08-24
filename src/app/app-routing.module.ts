@@ -11,7 +11,7 @@ import { CertificatesComponent } from './certificates/certificates.component';
 const routes: Routes = [
   {path:"profile", component:ProfileComponent},
   {path:"education", component:EducationComponent},
-  {path:"skiils_interest", component:SkillsInterestsComponent},
+  {path:"skils_interest", component:SkillsInterestsComponent},
   {path:"projects", component:AcademicProjectsComponent},
   {path:"certificates", component:CertificatesComponent},
   {path:"contactme", component:ContactInfoComponent},
