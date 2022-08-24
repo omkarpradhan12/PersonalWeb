@@ -18,6 +18,7 @@ import { SkillsInterestsComponent } from './skills-interests/skills-interests.co
 import { AcademicProjectsComponent } from './academic-projects/academic-projects.component';
 import { CertificatesComponent } from './certificates/certificates.component';
 import { ContactInfoComponent } from './contact-info/contact-info.component';
+import {MatCardModule} from '@angular/material/card';
 
 
 
@@ -41,7 +42,8 @@ import { ContactInfoComponent } from './contact-info/contact-info.component';
     MatIconModule,
     MatButtonModule,
     MatMenuModule,
-    MatTabsModule
+    MatTabsModule,
+    MatCardModule
 
   ],
   providers: [],
